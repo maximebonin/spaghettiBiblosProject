@@ -25,7 +25,7 @@ function GetConnection(){
 
  try
  {
-  $db = new PDO('mysql:host=localhost;dbname=testBiblioPerso', 'root', '');
+  $db = new PDO('mysql:host=localhost;dbname=biblos', 'root', '');
 
  } catch (PDOException $e)
  {
